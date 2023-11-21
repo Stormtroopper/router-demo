@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  router-demo:
+    build: ./router-demo
+    container_name: react-router-demo
+    ports: -'3000:3000'
+    stdin_open: true
+    tty: true
